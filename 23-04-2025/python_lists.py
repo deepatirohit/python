@@ -248,3 +248,16 @@ for num in numbers:
         minNumber = num
     
 print(f"minimum number is {minNumber}")
+
+# Given a list of words, count how many vowels are present in all the words combined.
+words = ["apple", "banana", "grape", "orange", "kiwi", "melon"]
+
+vowels = ["a", "e", "i", "o", "u"]
+vowelsCount = 0
+
+for word in words:
+    for char in word:
+        if char in vowels:
+            vowelsCount += 1
+
+print(vowelsCount)
