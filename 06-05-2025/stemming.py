@@ -34,6 +34,6 @@ stemmer = PorterStemmer()
 
 print(stemmer.stem("Sitting"))
 print(stemmer.stem("eating"))
-print(stemmer.stem("palying"))
+print(stemmer.stem("playing"))
 print(stemmer.stem("bathing"))
 print(stemmer.stem("sleeping"))
